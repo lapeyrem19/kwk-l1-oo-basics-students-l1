@@ -50,6 +50,8 @@ class Shoe
   end
 
 
+    expect(shoe.condition).to eq("new")
+
 
 
 end
