@@ -40,6 +40,8 @@ class Shoe
     @condition
   end
 
+  condition = new 
+
   def cobble= (cobble)
     @cobble = cobble
   end
@@ -49,9 +51,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def shoe= (shoe)
-    expect(shoe.condition).to eq("new")
-  end
+
 
 
 end
