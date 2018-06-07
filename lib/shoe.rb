@@ -51,7 +51,7 @@ class Shoe
 
   def shoe= (shoe)
     expect(shoe.condition).to eq("new")
-  end 
+  end
 
 
 end
