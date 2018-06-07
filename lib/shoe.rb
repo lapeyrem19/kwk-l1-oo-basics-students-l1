@@ -49,7 +49,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def shoe.condition= (shoe
+  def shoe= (shoe)
     expect(shoe.condition).to eq("new")
   end 
 
